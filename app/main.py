@@ -18,5 +18,5 @@ app.add_middleware(
 )
 
 # 라우터 등록
-app.include_router(esgdsd_router, prefix="/esgdsd", tags=["ESG DSD"])
+app.include_router(esgdsd_router, tags=["ESG DSD"])
 
